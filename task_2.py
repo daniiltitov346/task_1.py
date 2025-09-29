@@ -1,6 +1,8 @@
 text = input("Введите строку: ")
+result = ""
 
-text = text.replace('a', '').replace('e', '').replace('i', '').replace('o', '').replace('u', '')
-text = text.replace('A', '').replace('E', '').replace('I', '').replace('O', '').replace('U', '')
+for char in text:
+    if char.lower() not in 'aeiou':
+        result += char
 
-print(text)
+print("Результат:", result)
