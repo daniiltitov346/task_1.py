@@ -5,4 +5,4 @@ surname = fio[:space1]
 name_letter = fio[space1 + 1]
 patronymic_letter = fio[space2 + 1]
 
-print(surname, name_letter + "." + patronymic_letter + ".")# Task 1 solution
+print(f"{surname}  {name_letter}. {patronymic_letter}. ")
