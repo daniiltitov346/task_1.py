@@ -1,0 +1,20 @@
+{
+  "client_id": "001",
+  "client_name": "Иван Иванов",
+  "date": "2025-09-30 13:43:36",
+  "accounts": [
+    {
+      "account_number": "ACC000001",
+      "currency": "RUB",
+      "balance": 1000,
+      "status": "Активен"
+    },
+    {
+      "account_number": "ACC000002",
+      "currency": "USD",
+      "balance": 535.0,
+      "status": "Активен"
+    }
+  ],
+  "total_balance": 1535.0
+}
